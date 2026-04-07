@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <exec failonerror="true" executable="C:\Users\wmw\AppData\Local\TotalCross\zulu_jdk_11\bin\java">
+    <arg value="-Dretrolambda.classpathFile=C:\Users\wmw\AppData\Local\Temp\retrolambda17108369655837720509classpath"/>
+    <arg value="-Dretrolambda.bytecodeVersion=51"/>
+    <arg value="-Dretrolambda.defaultMethods=false"/>
+    <arg value="-Dretrolambda.quiet=false"/>
+    <arg value="-Dretrolambda.outputDir=C:\Users\wmw\eclipse-workspace_2\gestor_app\target\classes"/>
+    <arg value="-Dretrolambda.javacHacks=false"/>
+    <arg value="-Dretrolambda.inputDir=C:\Users\wmw\eclipse-workspace_2\gestor_app\target\classes"/>
+    <arg value="-javaagent:C:\Users\wmw\eclipse-workspace_2\gestor_app\target/retrolambda/retrolambda.jar"/>
+    <arg value="-jar"/>
+    <arg value="C:\Users\wmw\eclipse-workspace_2\gestor_app\target/retrolambda/retrolambda.jar"/>
+  </exec>
+</target>
+</project>
